@@ -24,12 +24,12 @@ end
 
 def sort
   # sorted_roster = @roster
-  # @roster.each do |grade|
+  # @roster.map do |grade|
   #   sorted_roster[grade] = @roster[grade].sort
   # end
   # return sorted_roster
 
-  @roster.sort_by
+  @roster.sort_by {|g| }
 
 end
 
