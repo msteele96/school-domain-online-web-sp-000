@@ -24,7 +24,7 @@ end
 
 def sort
   return @roster.values.sort
-    
+
 end
 
 end
