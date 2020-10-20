@@ -24,8 +24,7 @@ end
 
 def sort
   sorted_roster = @roster
-  @roster.map do |grade|
-    sorted_roster[grade] = @roster.sort
+  @roster.map do {|grade| sorted_roster[grade] = @roster.sort}
   end
   return sorted_roster
 
