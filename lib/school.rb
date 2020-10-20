@@ -29,7 +29,7 @@ def sort
   # end
   # return sorted_roster
 
-   return @roster.sort_by {|grade, name| name}
+   return @roster.sort
 
 end
 
