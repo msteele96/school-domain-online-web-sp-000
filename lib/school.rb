@@ -26,6 +26,7 @@ def sort
   sorted_roster = {}
   @roster.each do |grade|
     sorted_roster << @roster[grade].sort
+  end
 
 end
 
