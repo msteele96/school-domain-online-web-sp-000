@@ -28,7 +28,7 @@ def sort
   #   sorted_roster << @roster[grade].sort
   # end
 
-  @roster[9].sort
+  @roster.sort
 
 end
 
