@@ -25,10 +25,10 @@ end
 def sort
   sorted_roster = @roster
   @roster.each do |grade|
-    sorted_roster[grade] = [grade]
+    sorted_roster[grade] = @roster[grade].sort
   end
   return sorted_roster
-
+  
 end
 
 end
