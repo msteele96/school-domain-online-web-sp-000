@@ -23,13 +23,11 @@ def grade(num)
 end
 
 def sort
-  # sorted_roster = {}
-  # @roster.each do |grade|
-  #   sorted_roster << @roster[grade].sort
-  # end
-  # return sorted_roster
-
-   return @roster.sort
+  sorted_roster = {}
+  @roster.each do |grade|
+    sorted_roster << @roster[grade].sort
+  end
+  return sorted_roster
 
 end
 
