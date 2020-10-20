@@ -29,7 +29,7 @@ def sort
   # end
   # return sorted_roster
 
-  @roster.keys.values.sort
+  @roster.values.sort
 
 end
 
